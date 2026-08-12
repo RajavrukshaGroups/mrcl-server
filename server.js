@@ -9,7 +9,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://www.mrclinfrastructure.com", "http://localhost:3000", "https://mrcltest.bouncyboxstudio.in"],
+    origin: ["http://localhost:5173", "https://www.mrclinfrastructure.com", "http://localhost:3000", "https://mrcltest.bouncyboxstudio.in","https://mrclinfrastructure.com"],
   }),
 );
 app.use(express.json());
